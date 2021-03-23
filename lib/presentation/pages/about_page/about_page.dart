@@ -6,12 +6,8 @@ import 'package:meet_mars/utils/launch_url.dart';
 class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final height = MediaQuery.of(context).size.height;
-    final width = MediaQuery.of(context).size.width;
 
     return Container(
-      height: height * 0.45,
-      width: width < 580 ? width * 0.7 : 400,
       color: Theme.of(context).canvasColor,
       child: Scrollbar(
         child: SingleChildScrollView(
