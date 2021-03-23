@@ -1,0 +1,35 @@
+name: meet_mars
+description: See mars through the eyes of the rovers.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.1
+  flutter_bloc: ^7.0.0
+  google_fonts: ^2.0.0
+  jiffy: ^4.1.0
+  share: ^2.0.1
+  flutter_downloader: ^1.5.2
+  path_provider: ^2.0.1
+  url_launcher: ^6.0.2
+  permission_handler: ^6.1.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/licenses/

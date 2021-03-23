@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    ".dart_tool": true,
+    ".idea": true,
+    ".vscode": true,
+    "build": true,
+    ".metadata": true,
+    ".packages": true,
+    "meet_mars.iml": true,
+    "pubspec.lock": true,
+    ".flutter-plugins": true,
+    ".flutter-plugins-dependencies": true
+  }
+}
